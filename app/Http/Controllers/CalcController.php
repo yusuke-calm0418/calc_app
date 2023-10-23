@@ -27,9 +27,9 @@ class CalcController extends Controller
             $out = $number1 + $number2;
         } elseif ($method === 'subtraction') {
             $out = $number1 - $number2;
-        } elseif($method === 'multiplication') {
+        } elseif ($method === 'multiplication') {
             $out = $number1 * $number2;
-        } elseif($method === 'division'){
+        } elseif ($method === 'division') {
             $out = $number1 / $number2;
         }
 
